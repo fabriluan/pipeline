@@ -1,11 +1,13 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
-html, body, #root{
+html,
+body,
+#root {
   height: 100%;
   width: 100%;
   display: flex;
@@ -14,7 +16,7 @@ html, body, #root{
   justify-content: center;
 }
 
-.app{
+.app {
   width: 100%;
   max-width: 500px;
   height: 100%;
@@ -27,7 +29,7 @@ html, body, #root{
   border-radius: 8px;
 }
 
-.box{
+.box {
   width: 100%;
   height: 700px;
   padding: 28px;
@@ -40,22 +42,26 @@ html, body, #root{
   border: 2px dashed black;
   cursor: pointer;
 
-  small{
+  small {
     color: rgb(87, 87, 87);
   }
 }
 
-.box svg{
+.box svg {
   width: 32px;
   height: 32px;
   margin-bottom: 4px;
 }
 
-.box2{
+.box2 {
   background-color: rgb(194, 194, 194);
 }
 
-.upload{
+.box3 {
+  background-color: red;
+}
+
+.upload {
   width: 100%;
 }
 
@@ -74,7 +80,7 @@ html, body, #root{
   display: none;
 }
 
-.files{
+.files {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -82,7 +88,7 @@ html, body, #root{
   margin-top: 20px;
 }
 
-.files > button{
+.files > button {
   background-color: #1d1d1d;
   color: #ffffff;
   border-radius: 4px;
@@ -93,19 +99,19 @@ html, body, #root{
   font-weight: 700;
 }
 
-.files > button:hover{
+.files > button:hover {
   transition: 0.7s;
   opacity: 0.8;
 }
 
-.file{
+.file {
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-radius: 8px;
 }
 
-.file button{
+.file button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,12 +122,12 @@ html, body, #root{
   padding: 8px;
 }
 
-.file button:hover{
+.file button:hover {
   transition: 0.7s;
   opacity: 0.8;
 }
 
-.file button svg{
+.file button svg {
   width: 24px;
   height: 24px;
   color: #ffffff;
