@@ -12,3 +12,8 @@ phases:
   build:
     commands:
       - yarn build
+
+  post_build:
+    commands:
+      - aws s3 sync --delete ./build s3://pipeline-fabricio-cipriano-dev
+      - aws cloudfront create-invalidation --distribution-id EQWV5YE7NM7QK --paths /index.html
