@@ -82,7 +82,7 @@ function App() {
 
       {uploads.length > 0 && (
         <div className="files">
-          <h2>{uploads.length} Arquivos selecionados </h2>
+          <h2>{uploads.length} Arquivos selecionados - teste</h2>
 
           {uploads.map(({ file, progress }, index) => (
             <div className="upload">
